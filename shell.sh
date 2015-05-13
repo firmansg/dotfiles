@@ -14,7 +14,7 @@ alias hp='cd ~/Documents/Code/Homestead && vagrant provision'
 # Copy laravel/framework to laravel/laravel vendor directory...
 
 laracopy () {
-	rm -rf /Users/Taylor/Documents/Code/Laravel/laravel/vendor/laravel/framework
-	rsync --quiet -r /Users/Taylor/Documents/Code/Laravel/framework/* /Users/Taylor/Documents/Code/Laravel/laravel/vendor/laravel/framework
+	rm -rf ~/Documents/Code/Laravel/laravel/vendor/laravel/framework
+	rsync --quiet -r ~/Documents/Code/Laravel/framework/* ~/Documents/Code/Laravel/laravel/vendor/laravel/framework
 	echo "Copied!"
 }
